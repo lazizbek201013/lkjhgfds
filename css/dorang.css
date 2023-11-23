@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 img {
   width: 100%;
@@ -189,7 +189,6 @@ margin: 0 auto;
 }
 .Journal .Journal__content .Journal__item {
   text-align: center;
-  cursor: ew-resize;
 }
 .Journal .Journal__content .Journal__item .Journal__img {
   margin-bottom: 1rem;
@@ -215,11 +214,6 @@ margin: 0 auto;
   width: 100%;
   background-image: url(/imgs/footer.jpg);
   background-size: 100% 100%;
-}
-.contact .bg__overlay {
-  background-color: rgba(43, 42, 42, 0.8);
-  padding-top: 4.8rem;
-  padding-bottom: 1rem;
 }
 .contact .bg__overlay .title {
   text-align: center;
@@ -317,7 +311,6 @@ margin: 0 auto;
 .add__search input {
   display: inline-block;
   max-width: 196px;
-  box-sizing: content-box;
   padding: 10px 20px;
   border: 5px solid #1fbc00;
   border-radius: 11px;
@@ -327,7 +320,6 @@ margin: 0 auto;
   box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.15);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
   transition: all 2s linear ;
-  transform: rotateX(-16.62deg);
 }
 .add__search input:hover {
   transform: rotateX(-15.62deg);
